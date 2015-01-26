@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: ACF Merge Group Tabs
-Plugin URI:  http://yarcheek.com
+Plugin URI:  https://github.com/yarcheeck/acf-merge-group-tabs/
 Description: Merge ACF Tabs from different groups
 Author: Martin Jarcik
 Version: 1.0
