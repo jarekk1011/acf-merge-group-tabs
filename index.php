@@ -24,9 +24,9 @@ add_action('admin_footer', function() {
 	if ( $screen->base == 'post' ) {
 		echo '
 		<!-- ACF Merge Tabs -->
-		<script>		
+		<script>
 
-			var $boxes = jQuery("#postbox-container-2 .postbox .field_type-tab").parent(".inside");
+			var $boxes = jQuery("#postbox-container-2 .postbox .acf-field-tab").parent(".inside");
 
 			if ( $boxes.length > 1 ) {
 
@@ -34,14 +34,14 @@ add_action('admin_footer', function() {
 
 			    $boxes.not($firstBox).each(function(){
 				    jQuery(this).children().appendTo($firstBox);
-				    jQuery(this).parent(".postbox").remove();				    
+				    jQuery(this).parent(".postbox").remove();
 			    });
-				
+
 			}
-			
+
 		</script>';
 	}
-	
+
 });
 
 
